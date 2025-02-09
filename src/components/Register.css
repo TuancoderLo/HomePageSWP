@@ -1,0 +1,65 @@
+/* Sử dụng lại các styles từ Login.css và thêm styles riêng cho Register */
+.name-group {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+/* Điều chỉnh form đăng ký cho phù hợp với desktop */
+.auth-form {
+  overflow-y: auto;
+  padding: 2rem 2.5rem;
+}
+
+.auth-form form {
+  width: 100%;
+}
+
+/* Điều chỉnh khoảng cách cho form đăng ký */
+.auth-form .form-group {
+  margin-bottom: 0.5rem;
+}
+
+/* Điều chỉnh nút submit cho form đăng ký */
+.auth-form .submit-btn {
+  margin-top: 0.5rem;
+}
+
+/* Điều chỉnh container cho nút */
+.switch-auth {
+  text-align: center;
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%; /* Đảm bảo container chiếm toàn bộ chiều rộng */
+}
+
+.switch-auth p {
+  margin: 0;
+  margin-bottom: 0.5rem;
+  color: #666;
+  font-size: 0.9rem;
+}
+
+/* Điều chỉnh nút switch (Log in) */
+.switch-btn {
+  color: #00c4cc;
+  background: white;
+  border: 2px solid #00c4cc;
+  border-radius: 8px;
+  padding: 6px 25px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  font-weight: 500;
+  transition: all 0.3s ease;
+  width: 315px; /* Đặt chiều rộng cố định giống như các button khác */
+  display: block; /* Đảm bảo button là block element */
+  margin: 0 auto; /* Căn giữa button */
+}
+
+.switch-btn:hover {
+  background-color: #00c4cc;
+  color: white;
+}
